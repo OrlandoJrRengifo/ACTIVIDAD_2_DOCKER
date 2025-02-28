@@ -16,7 +16,7 @@ extension="${archivo##*.}"
 
 # lenguaje no soportado
 function LENGUAJE_NO_SOPORTADO() {
-    echo "Error: Lenguaje no soportado. Se admiten: Python (.py), Java (.java), C++ (.cpp, .cc), JavaScript (.js), Ruby (.rb)."
+    echo "Lenguaje no soportado, solo se admiten: Python (.py), Java (.java), C++ (.cpp, .cc), JavaScript (.js), Ruby (.rb)."
     exit 1
 }
 
@@ -42,7 +42,6 @@ case "$extension" in
         ;;
 esac
 
-# MEDICION DEL TIEMPO
 inicio=$(date +%s%3N)
 
 case "$lenguaje" in
@@ -67,9 +66,7 @@ case "$lenguaje" in
         ;;
 esac
 
-# Finaliza la medición del tiempo
 fin=$(date +%s%3N)
 tiempo_total=$((fin - inicio))
 
-# Muestra el tiempo de ejecución
 echo -e "\nTiempo total de ejecución: ${tiempo_total} ms"
