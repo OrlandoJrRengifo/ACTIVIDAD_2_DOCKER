@@ -14,7 +14,7 @@ fi
 
 extension="${archivo##*.}"
 
-# LENGUAJE NO SOPORTADO
+# lenguaje no soportado
 function LENGUAJE_NO_SOPORTADO() {
     echo "Error: Lenguaje no soportado. Se admiten: Python (.py), Java (.java), C++ (.cpp, .cc), JavaScript (.js), Ruby (.rb)."
     exit 1
