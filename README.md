@@ -7,10 +7,16 @@ ACTIVIDAD 3 - DOCKER - INSTRUCCIONES DE USO
 
 EJEMPLO:
 git clone https://github.com/OrlandoJrRengifo/ACTIVIDAD_2_DOCKER.git
+
 cd ACTIVIDAD_2_DOCKER
+
 chmod +x main.sh
+
 ./main.sh Sample.py
 
+
 La salida se debería ver de la siguiente manera:
+
 [5, 7, 23, 32, 34, 62]
+
 tiempo de ejecución: x ms
