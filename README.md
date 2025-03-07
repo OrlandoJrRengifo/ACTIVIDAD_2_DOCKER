@@ -8,7 +8,7 @@ ACTIVIDAD 3 - DOCKER - INSTRUCCIONES DE USO
 EJEMPLO:
 git clone https://github.com/OrlandoJrRengifo/ACTIVIDAD_3_DOCKER.git
 
-cd ACTIVIDAD_2}3_DOCKER
+cd ACTIVIDAD_3_DOCKER
 
 chmod +x main.sh
 
