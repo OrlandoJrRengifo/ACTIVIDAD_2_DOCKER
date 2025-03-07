@@ -6,9 +6,9 @@ ACTIVIDAD 3 - DOCKER - INSTRUCCIONES DE USO
 4. Escribir ruta del archivo que se quiere ejecutar
 
 EJEMPLO:
-git clone https://github.com/OrlandoJrRengifo/ACTIVIDAD_2_DOCKER.git
+git clone https://github.com/OrlandoJrRengifo/ACTIVIDAD_3_DOCKER.git
 
-cd ACTIVIDAD_2_DOCKER
+cd ACTIVIDAD_2}3_DOCKER
 
 chmod +x main.sh
 
