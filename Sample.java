@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class QuickSort {
+public class Sample {
 
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
